@@ -1,0 +1,163 @@
+body{
+    font-family: 'Baloo Bhai', cursive;
+}
+.navbar{
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    font-family: 'Baloo Bhai', cursive;
+}
+
+.navbar img{
+     width: 80px;
+     border-radius: 60px;
+     margin-left: 20px;
+}
+
+
+
+
+.navbar li a:hover{
+    text-decoration: underline;
+}
+
+
+
+#main{
+    margin-top: 94px; 
+    height: 500px; 
+    width: auto;
+    /* border: 2px solid black; */
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+   
+    font-family: 'Baloo Bhai', cursive;
+   
+}
+ #maindp {
+    width:400px;
+    height:300px;
+    border-radius: 10px;
+
+}
+
+
+@media screen and (max-width:991px) {
+    #maindp {
+     display: none;
+
+    }
+    
+} 
+@media screen and (max-width:568px) {
+    #main h1{
+        font-size: 20px;
+    } 
+    
+   
+    
+} 
+@media screen and (max-width:568px) {
+    #main{
+       text-align: center;
+    } 
+    
+   
+    
+} 
+
+
+
+#section-heading h1{
+    border-bottom:6px solid #5f1782 ;
+    display: block;
+    width: 400px;
+    margin: auto;
+}
+#section-heading img{
+    width: 140px;   
+    /* border-radius: 70px; */
+}
+
+#btn-1{
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    border: none;
+    font-family: 'Baloo Bhai', cursive;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 170px;
+  
+
+}
+
+
+
+#aboutdp img{
+    width: 400px;
+}
+
+/* #aboutli{
+    border: 2px solid black;
+  
+ 
+} */
+
+.aboutmain {
+    background-color:gainsboro;
+   
+    
+   
+}
+
+
+
+@media screen and (max-width:991px) {
+ #aboutdp img{
+     width: 100%;
+
+ }
+    
+   
+    
+} 
+
+#testimonails{
+    border-left: 4px solid #5f1782;
+    margin-left: 20px;
+}
+
+
+.flex{
+    display: flex;
+   
+    align-items: center;
+   
+}
+.flex img{
+    width: 80px;
+    margin-right: 20px;
+}
+
+
+.flexs img{
+    
+    
+    width: 70px;
+}
+
+
+.foot{
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    font-family: 'Baloo Bhai', cursive;
+
+}
+.footbutton{
+    background-color: #fff;
+}
+
+
+
+
+
+#curve  {
+margin-bottom: 500px;
+
+}
